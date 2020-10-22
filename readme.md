@@ -23,7 +23,8 @@ If you use the material provided here, please cite the paper using the reference
 
 ## Posterior files ##
 
-HDF files containing posterior samples are in the `posteriors` directory. Samples are stored as 1D arrays in the `samples` group in the posterior files. T
+HDF files containing posterior samples are in the `posteriors` directory. Each posterior is split into 5 files (due to github file size constraints). 
+Samples are stored as 1D arrays in the `samples` group in the posterior files. T
 here is a separate dataset for each parameter that was varied in the analysis, along with a dataset for the log likelihood at that point. The parameters are:
 
 Parameter | Description
