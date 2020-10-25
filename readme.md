@@ -3,6 +3,7 @@
 
  <sub>1. [Albert-Einstein-Institut, Max-Planck-Institut for Gravitationsphysik, D-30167 Hannover, Germany](http://www.aei.mpg.de/obs-rel-cos)</sub>  
  <sub>2. Leibniz Universitat Hannover, D-30167 Hannover, Germany</sub> 
+  
 
 This repository is a companion to [Nitz and Capano (arXiv:XXXX.XXXXX)](https://arxiv.org/abs/XXXX.XXXXX). 
 It contains posterior probability density files from the parameter estimation analysis described in the paper and the
@@ -20,6 +21,37 @@ If you use the material provided here, please cite the paper using the reference
     year = "2020"
 }
 ```
+## Abstract ##
+
+GW190521 is the first confident observation of a binary black hole merger with total mass M >
+100 M. Given the lack of observational constraints at these masses, we analyze GW190521 considering
+two different priors for the binary’s masses: uniform in mass ratio and source-frame total mass, and
+uniform in source-frame component masses. For the uniform in mass-ratio prior, we find that the
+component masses are msrc
+1 = 168+15
+−61 M and msrc
+2 = 16+33
+−3 M. The uniform in component-mass
+prior yields a bimodal posterior distribution. There is a low-mass-ratio mode (q < 4) with msrc
+1 =
+100+17
+−18 M and msrc
+2 = 57+17
+−16 M and a high-mass-ratio mode (q ≥ 4) with msrc
+1 = 166+16
+−35 M and
+msrc
+2 = 16+14
+−3 M. Although the two modes have nearly equal posterior probability, the maximumlikelihood parameters are in the high-mass ratio mode, with msrc
+1 = 171 M and msrc
+2 = 16 M, and
+a signal-to-noise ratio of 16. These results are consistent with the proposed “mass gap” produced
+by pair-instability in supernova. Our results are inconsistent with those published in Abbott et al.
+(2020b). We find that a combination of the prior used and the constraints applied may have prevented
+that analysis from sampling the high-mass-ratio mode. An accretion flare in AGN J124942.3+344929
+was observed in possible coincidence with GW190521 by the Zwicky Transient Facility (ZTF). We
+report parameters assuming a common origin; however, the spatial agreement of GW190521 and the
+EM flare alone does not provide convincing evidence for the association (ln B & −4).
 
 ## Posterior files ##
 
