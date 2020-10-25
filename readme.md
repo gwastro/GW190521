@@ -21,7 +21,7 @@ If you use the material provided here, please cite the paper using the reference
     year = "2020"
 }
 ```
-## Abstract ##
+## Abstract for "GW190521 may be an intermediate mass ratio inspiral" ##
 
 GW190521 is the first confident observation of a binary black hole merger with total mass M >
 100 M. Given the lack of observational constraints at these masses, we analyze GW190521 considering
