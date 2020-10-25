@@ -24,8 +24,8 @@ If you use the material provided here, please cite the paper using the reference
 ## Posterior files ##
 
 HDF files containing posterior samples are in the `posteriors` directory. Each posterior is split into 5 files (due to github file size constraints). 
-Samples are stored as 1D arrays in the `samples` group in the posterior files. T
-here is a separate dataset for each parameter that was varied in the analysis, along with a dataset for the log likelihood at that point. The parameters are:
+Samples are stored as 1D arrays in the `samples` group in the posterior files.
+There is a separate dataset for each parameter that was varied in the analysis, along with a dataset for the log likelihood at that point. The parameters are:
 
 Parameter | Description
 --------- | -----------
@@ -48,6 +48,9 @@ Parameter | Description
 `maxl_loglr` | The unmarginalized (over phase and polarization angle) maximum likelihood for each sample. 
 
 The files contain metadata about the analysis, including the parameters that were fixed. These can be found in the files' `attrs`.
+There are five file sets, the posteriors IMRPhenomXPN and NRSur7dq4 both with and without constraint
+on the EM flare location. There is also a reweighted set that converts the XPHM gw-only results into 
+source-frame uniform in component mass priors.
 
 ## Configuration files
 
