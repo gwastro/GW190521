@@ -5,19 +5,19 @@
  <sub>2. Leibniz Universitat Hannover, D-30167 Hannover, Germany</sub> 
   
 
-This repository is a companion to [Nitz and Capano (arXiv:XXXX.XXXXX)](https://arxiv.org/abs/XXXX.XXXXX). 
+This repository is a companion to [Nitz and Capano (https://arxiv.org/abs/2010.12558)](https://arxiv.org/abs/2010.12558). 
 It contains posterior probability density files from the parameter estimation analysis described in the paper and the
 configuration files needed to run the analysis. We encourage use of these data in derivative works. 
 If you use the material provided here, please cite the paper using the reference:
 
 ```
-@article{Nitz:2020dix,
-    author = "Capano, Collin D. and Nitz, Alexander H.",
-    title = "{PLACEHOLDER}",
-    eprint = "2008.02248",
+@article{Nitz:2020,
+    author = "Nitz, Alexander H. and Collin D. Capano",
+    title = "{GW190521 may be an intermediate mass ratio inspiral}",
+    eprint = "2010.12558",
     archivePrefix = "arXiv",
     primaryClass = "gr-qc",
-    month = "8",
+    month = "10",
     year = "2020"
 }
 ```
